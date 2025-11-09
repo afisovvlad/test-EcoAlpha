@@ -1,13 +1,15 @@
 import { StoreProvider } from 'app/providers/StoreProvider';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { RouterProvider } from 'react-router';
+import { HashRouter, RouterProvider } from 'react-router';
 import { routeConfig } from 'shared/config/routeConfig/routeConfig';
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
 		<StoreProvider>
-			<RouterProvider router={routeConfig}></RouterProvider>
+			<HashRouter>
+				<RouterProvider router={routeConfig}></RouterProvider>
+			</HashRouter>
 		</StoreProvider>
 	</StrictMode>
 );

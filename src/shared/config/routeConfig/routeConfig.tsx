@@ -10,7 +10,7 @@ export enum AppRoutes {
 	CREATE_PRODUCT = 'create_product',
 
 	// last
-	NOT_FOUND = 'not-found'
+	NOT_FOUND = 'not_found'
 }
 
 export const RoutePath: Record<AppRoutes, string> = {
@@ -41,6 +41,10 @@ export const routeConfig = createBrowserRouter([
 			{
 				path: RoutePath.create_product,
 				element: <CreateProduct></CreateProduct>
+			},
+			{
+				path: RoutePath.not_found,
+				element: <Navigate to={RoutePath.products} replace />
 			}
 		]
 	}

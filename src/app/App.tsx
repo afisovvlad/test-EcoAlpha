@@ -14,5 +14,4 @@ const App = memo(() => {
 	);
 });
 
-// 8609b6d5da4dbcb320d342358b3d7b85
 export default App;
