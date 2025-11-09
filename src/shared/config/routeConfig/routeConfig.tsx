@@ -21,7 +21,7 @@ export const RoutePath: Record<AppRoutes, string> = {
 	[AppRoutes.NOT_FOUND]: '*'
 };
 
-export const routeConfig = createBrowserRouter([
+export const routeConfig = [
 	{
 		path: '/',
 		element: <App></App>,
@@ -48,4 +48,4 @@ export const routeConfig = createBrowserRouter([
 			}
 		]
 	}
-]);
+];
