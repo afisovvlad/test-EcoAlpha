@@ -1,0 +1,14 @@
+.productsWrapper {
+	background-color: blueviolet;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 25px;
+	padding: 20px;
+}
+
+.loading,
+.error {
+	font-size: 30px;
+	margin-left: 40px;
+	color: white;
+}

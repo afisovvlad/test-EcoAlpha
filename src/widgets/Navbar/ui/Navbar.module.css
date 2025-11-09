@@ -1,0 +1,13 @@
+.Navbar {
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	background-color: rgb(201, 74, 74);
+}
+
+.NavLink {
+	font-size: 25px;
+	font-weight: bold;
+	color: bisque;
+}

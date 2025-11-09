@@ -1,0 +1,15 @@
+.ProductsDetail {
+	padding: 50px;
+}
+
+.notFound {
+	font-size: 30px;
+	margin-top: 40px;
+}
+
+.loading,
+.error {
+	font-size: 30px;
+	margin-left: 40px;
+	color: black;
+}

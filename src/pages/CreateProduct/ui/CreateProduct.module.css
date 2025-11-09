@@ -1,0 +1,43 @@
+.CreateProduct {
+	width: 800px;
+	background-color: blueviolet;
+	padding: 40px;
+	border-radius: 20px;
+	margin: 100px auto auto auto;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.input {
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 15px;
+	background-color: bisque;
+	color: rgb(98, 57, 57);
+	border: 2px solid transparent;
+}
+
+.input.err {
+	border: 2px solid red;
+}
+
+.input::placeholder {
+	font-size: 18px;
+	color: rgb(138, 90, 90);
+}
+
+.errorMessage {
+	font-size: 18px;
+	color: red;
+	margin-left: 20px;
+}
+
+.submitButton {
+	padding: 15px;
+	font-size: 20px;
+	border-radius: 8px;
+}
